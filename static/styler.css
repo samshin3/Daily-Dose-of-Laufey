@@ -1,0 +1,129 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color:aquamarine;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.laufey{
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    margin-top: 10px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.songfortoday{
+    position: fixed;
+    left: 220px;
+    top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    font-weight: bold;
+}
+iframe{
+    position: fixed;
+    left: 220px;
+    top:100px;
+}
+
+.right{
+    display: grid;
+    border-width: 2px;
+    border-color: aquamarine;
+}
+
+.about{
+    position: fixed;
+    left: 530px;
+    top: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    line-height: 1px;
+}
+
+.socials{
+    display: grid;
+    position: fixed;
+    right: 215px;
+    top: 175px;
+}
+
+.instagram{
+    grid-column-start: 1;
+    grid-column-end:2;
+    padding: 5px;
+}
+.instagram p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+.instagram img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.tiktok{
+    grid-column-start: 2;
+    grid-column-end:3;
+    padding: 5px;
+}
+
+.tiktok p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.tiktok img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.facebook{
+    grid-column-start: 3;
+    grid-column-end:4;
+    padding: 5px;
+}
+
+.facebook p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.facebook img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+.twitter{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    padding: 5px;
+}
+
+.twitter p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.twitter img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
